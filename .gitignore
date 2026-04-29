@@ -1,9 +1,20 @@
-# 가상 환경 폴더들 (이름에 venv가 포함된 모든 폴더 제외)
+# 가상 환경 (venv) 폴더 제외
 *venv/
 .venv/
 venv/
+ENV/
 
-# 환경 변수 및 기타
+# 환경 변수 (API KEY 보안)
 .env
+.envrc
+
+# 파이썬 캐시 및 빌드 파일
 __pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# 에디터 및 기타 설정
 .vscode/
+.idea/
+tempCodeRunnerFile.py
