@@ -1,20 +1,26 @@
-# 가상 환경 (venv) 폴더 제외
-*venv/
-.venv/
-venv/
-ENV/
-
-# 환경 변수 (API KEY 보안)
+# env
 .env
-.envrc
 
-# 파이썬 캐시 및 빌드 파일
+# virtual environments
+venv/
+.venv/
+ch02venv/
+ch03venv/
+ch04venv/
+
+# python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.spec
+*.pyc
 
-# 에디터 및 기타 설정
+# output files
+output/
+ch02/output/
+ch03/output/
+ch04/output/
+
+# pdf data
+*.pdf
+
+# OS / editor
+.DS_Store
 .vscode/
-.idea/
-tempCodeRunnerFile.py
