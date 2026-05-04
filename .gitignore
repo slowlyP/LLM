@@ -1,37 +1,13 @@
-# env
 .env
 
-# virtual environments
-venv/
-.venv/
-ch02venv/
-ch03venv/
-ch04venv/
-
-# python cache
-__pycache__/
-*.pyc
-
-# output files
-output/
-ch02/output/
-ch03/output/
-ch04/output/
-ch05/output/
-
-# pdf data
-*.pdf
-
-# OS / editor
-.DS_Store
-.vscode/
 ch02venv/
 ch03venv/
 ch04venv/
 ch05venv/
+ch05dia/
+
 .venv/
 venv/
-.env
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
