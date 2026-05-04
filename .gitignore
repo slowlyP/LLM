@@ -17,6 +17,7 @@ output/
 ch02/output/
 ch03/output/
 ch04/output/
+ch05/output/
 
 # pdf data
 *.pdf
@@ -24,3 +25,13 @@ ch04/output/
 # OS / editor
 .DS_Store
 .vscode/
+ch02venv/
+ch03venv/
+ch04venv/
+ch05venv/
+.venv/
+venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
