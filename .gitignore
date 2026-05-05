@@ -1,13 +1,55 @@
+# environment variables
 .env
 
+# virtual environments
+.venv/
+venv/
 ch02venv/
 ch03venv/
 ch04venv/
 ch05venv/
 ch05dia/
+ch06venv/
+ch08venv/
+ch09venv/
+ch10venv/
+ch12venv/
 
-.venv/
-venv/
+# python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# outputs
+output/
+ch02/output/
+ch03/output/
+ch04/output/
+ch05/output/
+ch06/output/
+ch08/output/
+ch09/output/
+ch10/output/
+ch12/output/
+
+# generated audio / transcript outputs
+ch05/audio/*.mp3
+ch05/audio/*.wav
+ch05/audio/*.rttm
+ch05/audio/*.csv
+ch05/audio/*.json
+ch05/audio/*.md
+
+# vector db / chroma
+ch09/chroma_store/
+ch09/**/chroma_store/
+*.sqlite3
+
+# large generated files
+*.log
